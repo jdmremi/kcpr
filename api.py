@@ -2,6 +2,7 @@ from dataclasses import dataclass, fields
 from dataclass_csv import DataclassWriter
 from datetime import datetime, timezone
 from dotenv import load_dotenv
+import csv
 import os
 import requests
 import xml.etree.ElementTree as ET
@@ -9,10 +10,10 @@ import xml.etree.ElementTree as ET
 # load env vars
 load_dotenv()
 
+STATION_ID_TITLE: str = "KCPR Cal Poly Radio. Where Different Matters."
 KCPR_NOW_PLAYING_URL: str = "https://streamdb8web.securenetsystems.net/player_status_update/KCPR1.xml"
-
-OPENWEATHER_API_KEY: str = os.environ["OPENWEATHER_API_KEY"]
-SOUNDNET_API_KEY: str = os.environ["SOUNDNET_API_KEY"]
+OPENWEATHER_API_KEY: str  = os.environ["OPENWEATHER_API_KEY"]
+SOUNDNET_API_KEY: str     = os.environ["SOUNDNET_API_KEY"]
 
 # use safari user agent to "mimic" a browser request... this doesn't mimic browser requests entirely but is okay enough
 KCPR_REQUEST_HEADERS: dict[str, str] = {
@@ -20,10 +21,10 @@ KCPR_REQUEST_HEADERS: dict[str, str] = {
 }
 
 # latitude/longitude of cal poly graphic arts building
-CAL_POLY_LAT, CAL_POLY_LON = 35.29929042318235, -120.66171542472954
+CAL_POLY_LAT, CAL_POLY_LON    = 35.29929042318235, -120.66171542472954
 OPENWEATHER_API_URL_BASE: str = "https://api.openweathermap.org/data/2.5/weather"
 
-SOUNDNET_API_URL_BASE: str = "https://track-analysis.p.rapidapi.com/pktx"
+SOUNDNET_API_URL_BASE: str               = "https://track-analysis.p.rapidapi.com/pktx"
 SOUNDNET_REQUEST_HEADERS: dict[str, str] = {
     "x-rapidapi-host": "track-analysis.p.rapidapi.com",
     "x-rapidapi-key": SOUNDNET_API_KEY,
@@ -31,12 +32,17 @@ SOUNDNET_REQUEST_HEADERS: dict[str, str] = {
     "accept": "application/json",
 }
 
-KCPR_REQUEST_SESSION: requests.Session = requests.Session()
+KCPR_REQUEST_SESSION: requests.Session    = requests.Session()
 OPENWEATHER_API_SESSION: requests.Session = requests.Session()
-SOUNDNET_API_SESSION: requests.Session = requests.Session()
+SOUNDNET_API_SESSION: requests.Session    = requests.Session()
 
+"""
+Note: Below, request_id and request_time are used to relate entries: ntries with the same request_id and request_time are related to each other.
+"""
 @dataclass
 class KcprResponse:
+    request_id: str | None
+    request_time: str | None
     dcs_output_version: int
     station_call_sign: str
     program_type: str
@@ -57,6 +63,8 @@ class KcprResponse:
 
 @dataclass
 class WeatherResponse:
+    request_id: str | None
+    request_time: str | None
     lon: float
     lat: float
     weather_id: int
@@ -72,15 +80,15 @@ class WeatherResponse:
     humidity: int
     sea_level: int | None
     grnd_level: int | None
-    visibility: int
+    visibility: int | None
     wind_speed: float
-    wind_deg: int
+    wind_deg: int | None
     wind_gust: float | None
     clouds: int
     dt: int
     timezone: int
-    sys_type: int
-    sys_id: int
+    sys_type: int | None
+    sys_id: int | None
     country: str
     sunrise: int
     sunset: int
@@ -90,6 +98,8 @@ class WeatherResponse:
 
 @dataclass
 class TrackAnalysis:
+    request_id: str | None
+    request_time: str | None
     id: str
     key: str
     mode: str
@@ -108,6 +118,8 @@ class TrackAnalysis:
 
 @dataclass
 class TrackMetadata:
+    request_id: str | None
+    request_time: str | None
     id: str
     title: str
     length: int
@@ -130,6 +142,39 @@ class TrackMetadata:
     release_languages: str
     release_scripts: str
 
+@dataclass
+class AppState:
+    # identifies the last logged track (see track_key)
+    last_track_key: tuple[str, ...] | None = None
+    now_playing: KcprResponse | None = None
+    current_weather: WeatherResponse | None = None
+    current_track_analysis: TrackAnalysis | None = None
+    current_track_metadata: TrackMetadata | None = None
+
+# headers for csv
+CSV_FILE_HEADERS = {
+    "now_playing.csv": ",".join([f.name for f in fields(KcprResponse)]),
+    "track_analysis.csv": ",".join([f.name for f in fields(TrackAnalysis)]),
+    "track_metadata.csv": ",".join([f.name for f in fields(TrackMetadata)]),
+    "weather.csv": ",".join([f.name for f in fields(WeatherResponse)])
+}
+
+# identifies a track play. request_id/request_time are left out since they change on every poll.
+# program_start_ts is included so the same song played twice in a row counts as two plays.
+def track_key(track: KcprResponse) -> tuple[str, ...]:
+    return (track.title, track.artist or "", track.album or "", str(track.program_start_ts))
+
+# returns the key of the last track in now_playing.csv, so a restart doesn't log the current track twice
+def load_last_track_key() -> tuple[str, ...] | None:
+    if not os.path.exists("./now_playing.csv"):
+        return None
+    with open("./now_playing.csv", newline="") as file:
+        rows = list(csv.DictReader(file))
+    if not rows:
+        return None
+    last = rows[-1]
+    return (last["title"], last["artist"], last["album"], last["program_start_ts"])
+
 # returns the currently playing song from KCPR.
 def get_now_playing():
     res = KCPR_REQUEST_SESSION.get(KCPR_NOW_PLAYING_URL, headers=KCPR_REQUEST_HEADERS, timeout=10)
@@ -143,6 +188,8 @@ def get_now_playing():
         return value.strip() or None if value is not None else None
 
     return KcprResponse(
+        request_id=None,
+        request_time=None,
         dcs_output_version=int(get_text("DCSoutputVersion") or 0),
         station_call_sign=get_text("stationCallSign") or "",
         program_type=get_text("programType") or "",
@@ -159,7 +206,7 @@ def get_now_playing():
         ad_block_pos=get_text("adBlockPos"),
         plays=int(get_text("plays") or 0),
         plays_days=int(get_text("playsDays") or 0),
-        is_ad=("KCPR Cal Poly Radio. Where Different Matters." in (get_text("title") or "")),
+        is_ad=(STATION_ID_TITLE in " ".join((get_text("title") or "").split())),
     )
 
 # returns the current weather
@@ -179,6 +226,8 @@ def get_current_weather():
     sys = data["sys"]
 
     return WeatherResponse(
+        request_id=None,
+        request_time=None,
         lon=data["coord"]["lon"],
         lat=data["coord"]["lat"],
         weather_id=weather["id"],
@@ -194,15 +243,15 @@ def get_current_weather():
         humidity=main["humidity"],
         sea_level=main.get("sea_level"),
         grnd_level=main.get("grnd_level"),
-        visibility=data["visibility"],
+        visibility=data.get("visibility"),
         wind_speed=wind["speed"],
-        wind_deg=wind["deg"],
+        wind_deg=wind.get("deg"),
         wind_gust=wind.get("gust"),
         clouds=data["clouds"]["all"],
         dt=data["dt"],
         timezone=data["timezone"],
-        sys_type=sys["type"],
-        sys_id=sys["id"],
+        sys_type=sys.get("type"),
+        sys_id=sys.get("id"),
         country=sys["country"],
         sunrise=sys["sunrise"],
         sunset=sys["sunset"],
@@ -216,12 +265,17 @@ def get_track_analysis(kcpr_response: KcprResponse):
     res = SOUNDNET_API_SESSION.get("https://track-analysis.p.rapidapi.com/pktx/analysis", params={
         "song": kcpr_response.title,
         "artist": kcpr_response.artist,
-    }, headers=SOUNDNET_REQUEST_HEADERS, timeout=10)
+    }, headers=SOUNDNET_REQUEST_HEADERS)
+
+    if num_requests_remaining := res.headers.get("X-RateLimit-Requests-Remaining"):
+        print(f"[SoundNet] Remaining requests: {num_requests_remaining}")
 
     res.raise_for_status()
     data = res.json()
 
     return TrackAnalysis(
+        request_id=None,
+        request_time=None,
         id=data.get("id") or "",
         key=data.get("key") or "",
         mode=data.get("mode") or "",
@@ -245,8 +299,11 @@ def get_track_metadata(kcpr_response: KcprResponse):
         "name": kcpr_response.title,
         "artist": kcpr_response.artist,
         "album": kcpr_response.album,
-    }, headers=SOUNDNET_REQUEST_HEADERS, timeout=10)
+    }, headers=SOUNDNET_REQUEST_HEADERS)
 
+    if num_requests_remaining := res.headers.get("X-RateLimit-Requests-Remaining"):
+        print(f"[SoundNet] Remaining requests: {num_requests_remaining}")
+        
     res.raise_for_status()
     data = res.json()
 
@@ -258,6 +315,8 @@ def get_track_metadata(kcpr_response: KcprResponse):
     releases = data.get("releases") or []
 
     return TrackMetadata(
+        request_id=None,
+        request_time=None,
         id=data.get("id") or "",
         title=data.get("title") or "",
         length=data.get("length") or 0,
@@ -281,16 +340,30 @@ def get_track_metadata(kcpr_response: KcprResponse):
         release_scripts=flatten((r.get("textRepresentation") or {}).get("script") for r in releases),
     )
 
-def create_csv_files():
-    pass
+# creates a csv file and writes its respective header if it doesn't already exist.
+def ensure_csv_files_exist():
+    for file_name, header in CSV_FILE_HEADERS.items():
+        if not os.path.exists(f"./{file_name}"):
+            print(f"Creating CSV: ./{file_name}")
+            with open(f"./{file_name}", "w") as file:
+                file.write(f"{header}\n")
+        else:
+            print(f"Found CSV: ./{file_name}")
 
-def log_record(file_name: str, record: KcprResponse | WeatherResponse):
+# writes an individual dataclass record to the specified file
+def log_record(file_name: str, record, record_type):
     with open(file_name, mode="a") as file:
-        writer = DataclassWriter(file, [record], type(record))
-        writer.write()
+        writer = DataclassWriter(file, [record], record_type)
+        writer.write(skip_header=True)
 
-# headers for csv
-KCPR_CSV_HEADER: str = ",".join([f.name for f in fields(KcprResponse)])
-TRACK_ANALYSIS_CSV_HEADER: str = ",".join([f.name for f in fields(TrackAnalysis)])
-TRACK_METADATA_CSV_HEADER: str = ",".join([f.name for f in fields(TrackMetadata)])
-WEATHER_CSV_HEADER: str = ",".join([f.name for f in fields(WeatherResponse)])
+# writes the current app state to respective CSV files. data that couldn't be fetched (None) is skipped.
+def log_state(state: AppState):
+    records = [
+        ("./now_playing.csv", state.now_playing, KcprResponse),
+        ("./track_analysis.csv", state.current_track_analysis, TrackAnalysis),
+        ("./track_metadata.csv", state.current_track_metadata, TrackMetadata),
+        ("./weather.csv", state.current_weather, WeatherResponse),
+    ]
+    for file_name, record, record_type in records:
+        if record is not None:
+            log_record(file_name, record, record_type)
