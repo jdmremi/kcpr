@@ -20,7 +20,6 @@ def try_fetch(description: str, fetch):
         log(f"{description} failed: {e!r}")
         return None
 
-
 # checks KCPR once; if a new track is playing, fetches the other data and logs it
 def poll(state: api.AppState):
     now_playing = try_fetch("KCPR now playing", api.get_now_playing)

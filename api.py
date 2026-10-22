@@ -4,7 +4,10 @@ from datetime import datetime, timezone
 from dotenv import load_dotenv
 import csv
 import os
+import re
 import requests
+import spotipy
+from spotipy.oauth2 import SpotifyClientCredentials
 import xml.etree.ElementTree as ET
 
 # load env vars
@@ -260,12 +263,50 @@ def get_current_weather():
         cod=data["cod"],
     )
 
+# created on startup
+_spotify_client = None
+# returns the Spotify client; reads SPOTIPY_CLIENT_ID and SPOTIPY_CLIENT_SECRET from the .env.
+def get_spotify_client():
+    global _spotify_client
+    if _spotify_client is None:
+        _spotify_client = spotipy.Spotify(auth_manager=SpotifyClientCredentials(), requests_timeout=10)
+    return _spotify_client
+
+# words that mark a version of a song (clean, radio edit, remastered 2011, ...) rather than a different song
+_VERSION_TAG_WORDS = r"(?:clean|dirty|explicit|radio|edit|version|single|album|original|mix|remix|remaster(?:ed)?|v\d*|\d{4})"
+_VERSION_TAG = re.compile(rf"\s*{_VERSION_TAG_WORDS}(?:\s+{_VERSION_TAG_WORDS})*\s*", re.IGNORECASE)
+_BRACKET_GROUP = re.compile(r"\s*[(\[]([^)\]]*)[)\]]")
+_DASH_SUFFIX = re.compile(r"\s+-\s+(.*)$")
+
+# returns the title without version tags like "(Clean)", "[Radio Edit]", "(Remix)" or " - Remastered 2011", for searching APIs.
+# a group is only removed if every word in it is a tag, so "(Time Edit)" and "(obli Remix)" are kept.
+def search_title(title: str) -> str:
+    drop_if_tag = lambda match: "" if _VERSION_TAG.fullmatch(match.group(1)) else match.group(0)
+    cleaned = _DASH_SUFFIX.sub(drop_if_tag, _BRACKET_GROUP.sub(drop_if_tag, title)).strip()
+    return cleaned or title
+
+# returns the album name of the best Spotify match for the provided KcprResponse, or None if no match is found
+def get_album_from_spotify(kcpr_response: KcprResponse) -> str | None:
+    # quotes keep multi-word values inside their filter (unquoted, only the first word is filtered).
+    # double quotes inside a value would end the quoted string early, so they're removed.
+    quote = lambda value: '"' + value.replace('"', "") + '"'
+
+    query = f"track:{quote(search_title(kcpr_response.title))}"
+    if kcpr_response.artist:
+        query += f" artist:{quote(kcpr_response.artist)}"
+
+    results = get_spotify_client().search(q=query, type="track", limit=1)
+    tracks = (results or {}).get("tracks", {}).get("items") or []
+    if not tracks:
+        return None
+    return (tracks[0].get("album") or {}).get("name") or None
+
 # returns track an analysis from the SoundNet API for the provided KcprResponse
 def get_track_analysis(kcpr_response: KcprResponse):
     res = SOUNDNET_API_SESSION.get("https://track-analysis.p.rapidapi.com/pktx/analysis", params={
-        "song": kcpr_response.title,
+        "song": search_title(kcpr_response.title),
         "artist": kcpr_response.artist,
-    }, headers=SOUNDNET_REQUEST_HEADERS)
+    }, headers=SOUNDNET_REQUEST_HEADERS, timeout=30)
 
     if num_requests_remaining := res.headers.get("X-RateLimit-Requests-Remaining"):
         print(f"[SoundNet] Remaining requests: {num_requests_remaining}")
@@ -295,11 +336,16 @@ def get_track_analysis(kcpr_response: KcprResponse):
 
 # returns track datadata from the SoundNet API for the provided KcprResponse 
 def get_track_metadata(kcpr_response: KcprResponse):
+    # KCPR sometimes leaves the album blank, which makes SoundNet fail; ask Spotify for it instead
+    album = kcpr_response.album or get_album_from_spotify(kcpr_response)
+    if album is None:
+        raise ValueError(f"No album found on Spotify for {kcpr_response.title!r} by {kcpr_response.artist!r}")
+
     res = SOUNDNET_API_SESSION.get(f"{SOUNDNET_API_URL_BASE}/metadata/track", params={
-        "name": kcpr_response.title,
+        "name": search_title(kcpr_response.title),
         "artist": kcpr_response.artist,
-        "album": kcpr_response.album,
-    }, headers=SOUNDNET_REQUEST_HEADERS)
+        "album": album,
+    }, headers=SOUNDNET_REQUEST_HEADERS, timeout=30)
 
     if num_requests_remaining := res.headers.get("X-RateLimit-Requests-Remaining"):
         print(f"[SoundNet] Remaining requests: {num_requests_remaining}")
