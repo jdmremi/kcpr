@@ -3150,3 +3150,19 @@ request_id,request_time,dcs_output_version,station_call_sign,program_type,media_
 01a17f23-e0f2-74ec-a413-5f6b6b2afd9b,2026-10-27T20:53:40.210104+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-10-27 20:52:49+00:00,,14131,30,True
 01a17f25-b6a4-712f-8c35-a65ef5a8de92,2026-10-27T20:55:40.452771+00:00,2,KCPR1,PGM,AUD,Rice,Grumpy,Piebald,https://cdnrf.securenetsystems.net/file_radio/album_art/E/E/7/68A2E4FE-F09A-41C6-9724B1F42F2887EE.jpg,224,,,,2026-10-27 20:55:09+00:00,,10,30,False
 01a17f26-a32d-70e6-b3f2-c3a658528f46,2026-10-27T20:56:41.005240+00:00,2,KCPR1,PGM,AUD,Rice,Grumpy,Piebald,https://cdnrf.securenetsystems.net/file_radio/album_art/E/E/7/68A2E4FE-F09A-41C6-9724B1F42F2887EE.jpg,224,,,,2026-10-27 20:56:27+00:00,,11,30,False
+01a17f29-645d-771b-8800-d4f9c725a3c0,2026-10-27T20:59:41.533097+00:00,2,KCPR1,PGM,AUD,Ice Pick,Boy Harsher,,,225,,,,2026-10-27 20:59:02+00:00,,1,30,False
+01a17f2c-a317-7405-9df4-561741640a48,2026-10-27T21:03:14.199667+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-10-27 21:02:37+00:00,,14133,30,True
+01a17f36-b7d1-7227-8e17-566a813f9594,2026-10-27T21:14:14.865245+00:00,2,KCPR1,PGM,AUD,Careful,Television,Adventure (Bonus Track Version),,198,,,,2026-10-27 21:13:33+00:00,,1,30,False
+01a17f39-097d-7179-b7c8-f570915d2127,2026-10-27T21:16:46.845176+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-10-27 21:16:39+00:00,,14134,30,True
+01a17f3f-73f3-765f-9e0c-24442a79320d,2026-10-27T21:23:47.315424+00:00,2,KCPR1,PGM,AUD,Every Star in Rockingham County,Dogwood Tales,Every Star in Rockingham County,https://cdnrf.securenetsystems.net/file_radio/album_art/0/5/9/D5C3BB74-1DF7-4E4B-9A02E4A85CC2B950.jpg,224,,,,2026-10-27 21:23:07+00:00,,4,30,False
+01a17f42-aa36-7190-b120-9f42498b8dba,2026-10-27T21:27:17.814103+00:00,2,KCPR1,PGM,AUD,She Bangs the Drums (Remastered 2009),The Stone Roses,The Stone Roses (Remastered 2009),,232,,,,2026-10-27 21:26:44+00:00,,1,30,False
+01a17f45-e6c5-763d-9648-b9055f3125a9,2026-10-27T21:30:49.925567+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-10-27 21:30:25+00:00,,14136,30,True
+01a17f47-bc6b-7187-a7a4-12c49ec000a5,2026-10-27T21:32:50.155991+00:00,2,KCPR1,PGM,AUD,new deal,god of war,,,140,,,,2026-10-27 21:32:09+00:00,,10,30,False
+01a17f49-a5c0-71e3-b283-79a505f93312,2026-10-27T21:34:55.424321+00:00,2,KCPR1,PGM,AUD,Lay Your Head Here In Mine,Eiafuawn,,,158,,,,2026-10-27 21:34:29+00:00,,3,30,False
+01a17f4b-f2a1-715c-959d-4f5517074511,2026-10-27T21:37:26.177760+00:00,2,KCPR1,PGM,AUD,Still Remains (2019 Remaster),Stone Temple Pilots,Purple (2019 Remaster),,213,,,,2026-10-27 21:37:19+00:00,,1,30,False
+01a17f4f-a2c5-7503-b30c-e027232c3e9f,2026-10-27T21:41:27.877677+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-10-27 21:41:12+00:00,,14141,30,True
+01a17f50-8de5-7046-b818-5df7a6147cf4,2026-10-27T21:42:28.069315+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-10-27 21:42:14+00:00,,14145,30,True
+01a17f51-788c-74f8-9434-92ffb5b976f5,2026-10-27T21:43:28.140837+00:00,2,KCPR1,PGM,AUD,Little Fluffy Clouds,The Orb,The Orb's Adventures Beyond the Ultraworld,https://cdnrf.securenetsystems.net/file_radio/album_art/A/1/5/51AmWI9VeQL.jpg,268,,,,2026-10-27 21:43:16+00:00,,1,30,False
+01a17f56-13d8-7656-b3cb-f253b7291294,2026-10-27T21:48:30.040995+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-10-27 21:47:33+00:00,,14146,30,True
+01a17f58-d419-71d3-9bed-e2a24555134f,2026-10-27T21:51:30.329790+00:00,2,KCPR1,PGM,AUD,I'm Not In Pain,@,Autosmile,,302,,,,2026-10-27 21:51:01+00:00,,2,30,False
+01a17f5d-6ad2-73c1-b2d1-0097b18b23ac,2026-10-27T21:56:31.058533+00:00,2,KCPR1,PGM,AUD,Angel,MSPaint,,,224,,,,2026-10-27 21:56:11+00:00,,6,30,False
