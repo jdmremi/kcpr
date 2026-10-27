@@ -2805,3 +2805,13 @@ request_id,request_time,dcs_output_version,station_call_sign,program_type,media_
 01a17aa0-e517-707e-b33d-beaba3c9967a,2026-10-26T23:52:07.191769+00:00,2,KCPR1,PGM,AUD,Magic Mountain,Japanese Breakfast,,,185,,,,2026-10-26 23:51:48+00:00,,15,30,False
 01a17aa1-d2f6-716e-96c2-88e53e01ddd5,2026-10-26T23:53:08.086698+00:00,2,KCPR1,PGM,AUD,I'll Fall with Your Knife,Peter Murphy,Wild Birds (1985-1995),,272,,,,2026-10-26 23:52:19+00:00,,1,30,False
 01a17aa4-985f-70a4-807f-3b25659d7ffc,2026-10-26T23:56:09.695077+00:00,2,KCPR1,PGM,AUD,Forget,Fashion Club,,,197,,,,2026-10-26 23:55:57+00:00,,1,30,False
+01a17aa7-d934-77a0-a8a8-ce64dfe98784,2026-10-26T23:59:42.900159+00:00,2,KCPR1,PGM,AUD,Rain,The Shacks,The Shacks EP (Big Crown),,148,,,,2026-10-26 23:59:18+00:00,,1,30,False
+01a17aaa-2b93-73ab-a98f-0a54a935da71,2026-10-27T00:02:15.059528+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-10-27 00:02:03+00:00,,13787,30,True
+01a17ab3-55c3-70e7-a79f-dd3be93c77a5,2026-10-27T00:12:15.683564+00:00,2,KCPR1,PGM,AUD,All My Friends (clean),Snakehips [+] Chance the Rapper,,,226,,,,2026-10-27 00:11:43+00:00,,1,30,False
+01a17ab6-9c0a-7353-add1-9bf5839c3c1d,2026-10-27T00:15:50.282600+00:00,2,KCPR1,PGM,AUD,Mustang News on KCPR,,,https://userimages.metaradio.net/2669f22f01dd/14192/image_3-21e5ec99c38a1fec.jpg,0,,,,2026-10-27 00:15:20+00:00,,255,30,False
+01a17ab7-8732-70b9-ba4c-6b9d321f658d,2026-10-27T00:16:50.482435+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-10-27 00:15:51+00:00,,13788,30,True
+01a17ac1-9b75-752a-b0d5-81ae7a502c32,2026-10-27T00:27:51.029734+00:00,2,KCPR1,PGM,AUD,Little Dark Age,MGMT,Little Dark Age,https://cdnrf.securenetsystems.net/file_radio/album_art/i/b/m/mbid-fa3bfe9f-c369-4392-b796-7fd2ffbc0f8c-19049964553_thumb500.jpg,298,,,,2026-10-27 00:27:01+00:00,,1,30,False
+01a17ac6-3758-74c2-b27d-28a0a61179a0,2026-10-27T00:32:53.080183+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-10-27 00:32:28+00:00,,13789,30,True
+01a17acd-8c4f-767c-b6f0-2471727f7b0b,2026-10-27T00:40:53.583053+00:00,2,KCPR1,PGM,AUD,My Iron Lung,Radiohead,The Bends,https://cdnrf.securenetsystems.net/file_radio/album_art/J/1/4/41JZQ2VqdjL.jpg,275,,,,2026-10-27 00:39:57+00:00,,1,30,False
+01a17ad1-46c7-72d7-ac78-eb6ae9404dc3,2026-10-27T00:44:57.927458+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-10-27 00:44:49+00:00,,13790,30,True
+01a17ade-1b26-7073-88e9-ef0ed945d1ee,2026-10-27T00:58:58.726306+00:00,2,KCPR1,PGM,AUD,Take,The Beths,Straight Line Was A Lie,https://cdnrf.securenetsystems.net/file_radio/album_art/1/4/A/DE2937A8-6688-4356-B8C027AFA52ABA41.jpg,236,,,,2026-10-27 00:58:05+00:00,,9,30,False
