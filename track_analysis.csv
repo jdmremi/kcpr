@@ -2801,3 +2801,6 @@ request_id,request_time,id,key,mode,camelot,tempo,duration,popularity,energy,dan
 01a1ae06-5eff-736c-8305-bb7ef270cb20,2026-11-05T23:23:35.551715+00:00,YmlyZA==,D,major,10B,105,3:30,94,51,75,44,20,6,12,4,-10 dB
 01a1ae14-3507-77df-bcaa-30a4bdcd1352,2026-11-05T23:38:42.311592+00:00,aXRzLXlvdS1wai1oYXJ2ZXk=,F#,minor,11A,100,4:12,21,36,71,31,70,15,12,3,-12 dB
 01a1ae18-d409-7415-a11d-f4efe9eddafb,2026-11-05T23:43:45.161835+00:00,dGFzbWFuaWFuLWRldmlsLWJyZW5uYW4td2VkbA==,D,minor,7A,115,3:49,35,62,66,63,34,1,40,4,-6 dB
+01a1ae35-65ed-700f-8d69-e98dba301a2e,2026-11-06T00:14:57.517441+00:00,aG9sZC1teS1oYW5kLWh1bnRlci1laWxpc2gtY29uc3RhbmNl,E,major,12B,174,3:05,38,57,60,30,73,1,12,5,-7 dB
+01a1ae3c-c301-70ae-9232-3cbf87bd4cfc,2026-11-06T00:23:00.097329+00:00,YmxhY2stcmljZS13b21lbg==,G,major,9B,99,3:15,35,79,41,65,11,64,7,4,-5 dB
+01a1ae42-c58d-76af-bfdd-be01f18e3bfc,2026-11-06T00:29:33.965895+00:00,aGVsbGEtZ29vZC1uby1kb3VidA==,Ab,major,4B,115,4:03,71,67,77,84,1,1,9,3,-4 dB
