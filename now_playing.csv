@@ -9140,3 +9140,7 @@ request_id,request_time,dcs_output_version,station_call_sign,program_type,media_
 01a1c0cd-a0cc-7328-9072-3baa5eb2b121,2026-11-09T14:54:23.948647+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-09 14:54:18+00:00,,14639,30,True
 01a1c0ce-8be1-7226-a4fa-2a2a1a7f03fc,2026-11-09T14:55:24.129860+00:00,2,KCPR1,PGM,AUD,Alyse (2),Shygirl,,,229,,,,2026-11-09 14:54:31+00:00,,11,30,False
 01a1c0d1-4d8c-7249-a4b3-0f81a248da54,2026-11-09T14:58:24.780585+00:00,2,KCPR1,PGM,AUD,"Kokomo, IN",Japanese Breakfast,,,215,,,,2026-11-09 14:58:08+00:00,,2,30,False
+01a1c0d4-850a-7239-8e6a-ec22bdce296a,2026-11-09T15:01:55.594781+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-09 15:01:39+00:00,,14639,30,True
+01a1c0fb-ebde-7256-9e88-e92f86c86ed7,2026-11-09T15:44:57.822791+00:00,2,KCPR1,PGM,AUD,Magic Mountain,Japanese Breakfast,,,185,,,,2026-11-09 15:44:05+00:00,,15,30,False
+01a1c0fe-b043-7744-a23f-bbfb9604582c,2026-11-09T15:47:59.171514+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-09 15:47:05+00:00,,14628,30,True
+01a1c107-da6d-73d7-a2c6-4b7613b17064,2026-11-09T15:57:59.789656+00:00,2,KCPR1,PGM,AUD,Triple Seven,Wishy,Triple Seven,https://cdnrf.securenetsystems.net/file_radio/album_art/E/B/E/FF517594-BB49-4899-89849A77840F6EBE.jpg,207,,,,2026-11-09 15:57:00+00:00,,11,30,False
