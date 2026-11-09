@@ -9017,3 +9017,6 @@ request_id,request_time,dcs_output_version,station_call_sign,program_type,media_
 01a1bf4e-8ef7-72eb-aabf-4f141f0b625a,2026-11-09T07:55:59.096051+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-09 07:55:51+00:00,,14659,30,True
 01a1bf4f-7a13-70ab-b516-23c9f4f3bd0a,2026-11-09T07:56:59.283634+00:00,2,KCPR1,PGM,AUD,Too Pieces,Yaz,,,192,,,,2026-11-09 07:56:07+00:00,,5,30,False
 01a1bf52-4273-76ae-b1e8-c45e1143ba21,2026-11-09T08:00:01.651604+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-09 07:59:59+00:00,,14663,30,True
+01a1bf53-2e69-77ae-ba12-ef7f77b34fd8,2026-11-09T08:01:02.057737+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-09 08:01:01+00:00,,14666,30,True
+01a1bf54-1990-76b6-8c72-c0fcf2ee3c58,2026-11-09T08:02:02.256456+00:00,2,KCPR1,PGM,AUD,Democracy Now,Pacifica,,,180,,,,2026-11-09 08:01:16+00:00,,21,30,False
+01a1bf56-64e7-7710-b5cb-ee08ea1af971,2026-11-09T08:04:32.615900+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-09 08:04:01+00:00,,14664,30,True
