@@ -3,3 +3,7 @@ __pycache__/
 .venv
 .env
 .cache
+
+#added by Carter
+.mamba
+.vscode
