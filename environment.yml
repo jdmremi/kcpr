@@ -1,0 +1,16 @@
+name: data-science
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.14
+  # needed for jupyter notebooks
+  - jupyterlab
+  # data science tools
+  - matplotlib
+  - pandas
+  - scipy
+  - sympy
+  - altair
+  - scikit-learn
