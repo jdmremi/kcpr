@@ -9857,3 +9857,5 @@ request_id,request_time,dcs_output_version,station_call_sign,program_type,media_
 01a1c999-63b9-722e-b4cc-d9b6f6bdeaff,2026-11-11T07:53:55.385613+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-11 07:53:48+00:00,,14351,30,True
 01a1c99a-4ed1-7093-8983-8da606022f4d,2026-11-11T07:54:55.569093+00:00,2,KCPR1,PGM,AUD,Cry for Me,Magdalena Bay,,,307,,,,2026-11-11 07:53:56+00:00,,8,30,False
 01a1c99d-fb6b-764f-9037-89515943f123,2026-11-11T07:58:56.363151+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-11 07:58:56+00:00,,14352,30,True
+01a1c9a0-bb93-769b-a0b2-9518ee6a8ba1,2026-11-11T08:01:56.627615+00:00,2,KCPR1,PGM,AUD,Democracy Now,Pacifica,,,180,,,,2026-11-11 08:01:09+00:00,,22,30,False
+01a1c9a3-7d3e-77ae-98bf-8ff5e8067c73,2026-11-11T08:04:57.279044+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-11 08:04:08+00:00,,14353,30,True
