@@ -10341,3 +10341,6 @@ request_id,request_time,dcs_output_version,station_call_sign,program_type,media_
 01a1cebb-620b-77bc-b627-00e57f3c8ad6,2026-11-12T07:49:09.259706+00:00,2,KCPR1,PGM,AUD,All My Friends,Barry Can't Swim,Loner,https://cdnrf.securenetsystems.net/file_radio/album_art/2/E/4/F2C0B61C-7222-4AF6-BFF839379BB984E2.jpg,201,,,,2026-11-12 07:48:10+00:00,,8,30,False
 01a1cebe-240b-7666-983a-3559462e1a8d,2026-11-12T07:52:09.995369+00:00,2,KCPR1,PGM,AUD,DJ Mentality,Fantastic Man,DJ Mentality,,377,,,,2026-11-12 07:51:31+00:00,,7,30,False
 01a1cec3-a57c-77a4-845a-f25270cd3b4f,2026-11-12T07:58:10.812083+00:00,2,KCPR1,PGM,AUD,Fieldworks I,Squid,Cowards,https://cdnrf.securenetsystems.net/file_radio/album_art/1/6/0/4E062DCE-8593-4170-9014AEF824143061.jpg,143,,,,2026-11-12 07:57:42+00:00,,13,30,False
+01a1cec5-7dad-74f8-966c-d618a3eb206a,2026-11-12T08:00:11.693866+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-12 08:00:02+00:00,,14394,30,True
+01a1cec7-5381-70a0-9434-89c45d05f52c,2026-11-12T08:02:11.969051+00:00,2,KCPR1,PGM,AUD,Democracy Now,Pacifica,,,180,,,,2026-11-12 08:01:18+00:00,,22,30,False
+01a1cec9-2bbe-7130-9a19-4bc47d0ba591,2026-11-12T08:04:12.862313+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-12 08:04:04+00:00,,14395,30,True
