@@ -10780,3 +10780,6 @@ request_id,request_time,dcs_output_version,station_call_sign,program_type,media_
 01a1d3e2-b74c-7106-8b8d-346296fcfbbe,2026-11-13T07:50:13.068300+00:00,2,KCPR1,PGM,AUD,Lost World,LFO,Peel Session,https://cdnrf.securenetsystems.net/file_radio/album_art/8/0/9/908b236a-f80d-41c1-a086-7c1bb2b95f7f-24683020136_thumb500.jpg,339,,,,2026-11-13 07:50:00+00:00,,4,30,False
 01a1d3e7-c345-725b-ace4-1bc3fc752304,2026-11-13T07:55:43.813327+00:00,2,KCPR1,PGM,AUD,Figure It Out,SASAMI,,,171,,,,2026-11-13 07:55:41+00:00,,9,30,False
 01a1d3ea-fbd3-721f-bea1-7adb9f3a6859,2026-11-13T07:59:14.899762+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-13 07:59:03+00:00,,14345,30,True
+01a1d3eb-e772-776d-a8bd-56bb95e6f068,2026-11-13T08:00:15.218171+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-13 08:00:05+00:00,,14349,30,True
+01a1d3ec-d233-76eb-8ea6-b44e34c29bd1,2026-11-13T08:01:15.315602+00:00,2,KCPR1,PGM,AUD,Democracy Now,Pacifica,,,180,,,,2026-11-13 08:01:07+00:00,,22,30,False
+01a1d3ef-940c-711b-a149-5cd24a91f746,2026-11-13T08:04:16.012914+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-13 08:03:59+00:00,,14353,30,True
