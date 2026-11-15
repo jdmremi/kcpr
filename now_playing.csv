@@ -11575,3 +11575,24 @@ request_id,request_time,dcs_output_version,station_call_sign,program_type,media_
 01a1dc7a-1b3f-741c-a5ba-bb70400cb29a,2026-11-14T23:52:32.319558+00:00,2,KCPR1,PGM,AUD,Siberian Mines,The Wild Things,,,180,,,,2026-11-14 23:52:25+00:00,,1,30,False
 01a1dc7d-5179-7078-a18f-054d8c956e08,2026-11-14T23:56:02.809615+00:00,2,KCPR1,PGM,AUD,Burning Farm,Sonic Youth,,,180,,,,2026-11-14 23:55:46+00:00,,1,30,False
 01a1dc80-1317-7174-b069-91e5836a8bcf,2026-11-14T23:59:03.447646+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-14 23:58:36+00:00,,14395,30,True
+01a1dc83-bddb-77dd-b43a-2e67246c1a7d,2026-11-15T00:03:03.771147+00:00,2,KCPR1,PGM,AUD,Connection,Richard Lloyd,,,180,,,,2026-11-15 00:02:29+00:00,,1,30,False
+01a1dc86-1230-76b0-9dc2-1018262d04a1,2026-11-15T00:05:36.432814+00:00,2,KCPR1,PGM,AUD,Enola Gay,Orchestral Manoeuvres In the Dark,The Best Of Orchestral Manoeuvres In The Dark,,212,,,,2026-11-15 00:05:18+00:00,,1,30,False
+01a1dc89-c321-75ab-a73b-7af70cd5bd9d,2026-11-15T00:09:38.337943+00:00,2,KCPR1,PGM,AUD,Optimo,Liquid Liquid,Liquid Liquid,https://cdnrf.securenetsystems.net/file_radio/album_art/A/1/5/51ABW2FT06L.jpg,161,,,,2026-11-15 00:09:25+00:00,,1,30,False
+01a1dc8c-8c05-74af-b3b6-c79f088fff7e,2026-11-15T00:12:40.837924+00:00,2,KCPR1,PGM,AUD,Pretty Pictures,The Celibate Rifles,,https://cdnrf.securenetsystems.net/file_radio/album_art/5/D/8/B4B0CB3F-C109-4059-BE2467CABEF658D5.jpg,180,,,,2026-11-15 00:12:00+00:00,,1,30,False
+01a1dc8e-e047-708e-aeba-00909d2562e4,2026-11-15T00:15:13.479444+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-15 00:14:54+00:00,,14398,30,True
+01a1dc92-8b03-7008-9d15-2d4b5cc4fe55,2026-11-15T00:19:13.795332+00:00,2,KCPR1,PGM,AUD,Make Up With Me,Let's Active,Make Up With Me - Single,,222,,,,2026-11-15 00:18:42+00:00,,1,30,False
+01a1dc95-ce5a-72c3-ac01-001f6e54074b,2026-11-15T00:22:47.642174+00:00,2,KCPR1,PGM,AUD,Shopping Maul,Elliot Sharp,,,180,,,,2026-11-15 00:22:34+00:00,,1,30,False
+01a1dc98-20fa-704d-b162-60e896deeb85,2026-11-15T00:25:19.866329+00:00,2,KCPR1,PGM,AUD,Let's Kiss and Make Up,The Field Mice,Snowball,https://cdnrf.securenetsystems.net/file_radio/album_art/4/d/b/bd4b1f7a-b2ad-4a5d-ace1-fd0ccfdd731e-8966166578_thumb500.jpg,374,,,,2026-11-15 00:24:38+00:00,,1,30,False
+01a1dc9d-32f6-7067-aca2-e8cd693f1cff,2026-11-15T00:30:52.150135+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-15 00:30:43+00:00,,14399,30,True
+01a1dc9f-08a3-70dc-bf9b-b703c2185dfe,2026-11-15T00:32:52.387753+00:00,2,KCPR1,PGM,AUD,Oblivious,Aztec Camera,"High Land, Hard Rain (Deluxe)",,192,,,,2026-11-15 00:32:37+00:00,,1,30,False
+01a1dca1-ce11-71b5-aef4-fd04d9f86b6c,2026-11-15T00:35:54.001637+00:00,2,KCPR1,PGM,AUD,Jazz The Glass,Cabaret Voltaire,,,180,,,,2026-11-15 00:35:42+00:00,,1,30,False
+01a1dca5-0a4c-74ac-8e61-07f8bebcae79,2026-11-15T00:39:26.028115+00:00,2,KCPR1,PGM,AUD,I'm Alright With You,The Pastels,,,180,,,,2026-11-15 00:38:33+00:00,,1,30,False
+01a1dca7-5ca7-775b-9e8a-ceda25c5de83,2026-11-15T00:41:58.183190+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-15 00:41:30+00:00,,14400,30,True
+01a1dca8-47c1-73a0-8475-5dae23fe9ac3,2026-11-15T00:42:58.369458+00:00,2,KCPR1,PGM,AUD,Lady in the Golden Land,Arian Calandra,,,180,,,,2026-11-15 00:42:10+00:00,,1,30,False
+01a1dcaa-92e9-74da-a8ca-3fa0fa4b93b6,2026-11-15T00:45:28.681204+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-15 00:45:05+00:00,,14401,30,True
+01a1dcad-5305-7560-bb9e-8c2c197ede3d,2026-11-15T00:48:28.933832+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-15 00:48:21+00:00,,14401,30,True
+01a1dcae-3e14-76e9-a281-8604f5b17de6,2026-11-15T00:49:29.108589+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-15 00:49:24+00:00,,14405,30,True
+01a1dcaf-28bf-7530-bb32-65a3e3ffd3eb,2026-11-15T00:50:29.183845+00:00,2,KCPR1,PGM,AUD,aimee lou wood freestyle (CLEAN),untitled (halo),untitled (halo),https://cdnrf.securenetsystems.net/file_radio/album_art/3/6/4/933C55FD-CDC4-4E34-B73F17C5E0E22463.jpg,158,,,,2026-11-15 00:50:10+00:00,,18,30,False
+01a1dcb1-ea7e-73f1-9909-2866f2716c30,2026-11-15T00:53:29.855027+00:00,2,KCPR1,PGM,AUD,1 plus 1,Eilish Constance,,,181,,,,2026-11-15 00:52:46+00:00,,6,30,False
+01a1dcb4-b20a-75e3-ac69-2c67eb7abd3c,2026-11-15T00:56:32.010810+00:00,2,KCPR1,PGM,AUD,Your Dog,@,Autosmile,,128,,,,2026-11-15 00:55:52+00:00,,4,30,False
+01a1dcb6-1337-7244-816e-53907cf17e15,2026-11-15T00:58:02.423559+00:00,2,KCPR1,PGM,AUD,I Found,A Country Western,Audition Tape,https://cdnrf.securenetsystems.net/file_radio/album_art/5/B/B/624F9B36-5D25-4FD9-B69C2B2E571D4BB5.jpg,211,,,,2026-11-15 00:57:55+00:00,,16,30,False
