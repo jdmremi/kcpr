@@ -11548,3 +11548,30 @@ request_id,request_time,dcs_output_version,station_call_sign,program_type,media_
 01a1dc41-f533-724d-a84d-a1d1e6e32fba,2026-11-14T22:51:12.563641+00:00,2,KCPR1,PGM,AUD,Did You Hear?,Tchotchke,Playin' Dumb,https://cdnrf.securenetsystems.net/file_radio/album_art/E/1/C/499D83F0-2039-402D-B8B940C447358C1E.jpg,167,,,,2026-11-14 22:50:14+00:00,,6,30,False
 01a1dc43-cc3a-769c-bd9a-cf238ec41c3f,2026-11-14T22:53:13.146074+00:00,2,KCPR1,PGM,AUD,Shotguns,Oracle Sisters,,,260,,,,2026-11-14 22:53:05+00:00,,2,30,False
 01a1dc47-ee85-75e1-aaf3-66995ccc036a,2026-11-14T22:57:44.069327+00:00,2,KCPR1,PGM,AUD,Common Things,Wombo,Danger in Fives,https://cdnrf.securenetsystems.net/file_radio/album_art/C/5/6/4AF2FEEF-B048-4F67-86D9D6A2DA0B265C.jpg,147,,,,2026-11-14 22:57:27+00:00,,1,30,False
+01a1dc4a-3e69-72d7-974a-91485f279cfb,2026-11-14T23:00:15.593630+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-14 23:00:03+00:00,,14371,30,True
+01a1dc4b-297c-7183-8def-4fba4ee28fd9,2026-11-14T23:01:15.773000+00:00,2,KCPR1,PGM,AUD,Day In The Sun,Teenage Fanclub,Do Not Dare To Dream,https://cdnrf.securenetsystems.net/file_radio/album_art/6/7/7/1D10C342-4584-4566-BF4F7A432A0FA776.jpg,187,,,,2026-11-14 23:01:04+00:00,,15,30,False
+01a1dc4d-eacb-74df-be6f-9a8bbbba7f26,2026-11-14T23:04:16.331727+00:00,2,KCPR1,PGM,AUD,Amity,@,Autosmile,,152,,,,2026-11-14 23:04:10+00:00,,2,30,False
+01a1dc50-ac4a-74b4-a884-86ab85cf8b38,2026-11-14T23:07:16.938449+00:00,2,KCPR1,PGM,AUD,Indu,Greg Freeman,All Set The Bone,https://cdnrf.securenetsystems.net/file_radio/album_art/F/1/F/5552E1E9-3C9B-4E70-B3DACE451A594F1F.jpg,260,,,,2026-11-14 23:06:45+00:00,,17,30,False
+01a1dc54-5863-75aa-8df0-ca2887f53f34,2026-11-14T23:11:17.603064+00:00,2,KCPR1,PGM,AUD,Stage Names,Kiwi Jr,Blowin Up,https://cdnrf.securenetsystems.net/file_radio/album_art/7/6/4/AEEE86F6-E45C-403D-B7AA62CE9C816467.jpg,176,,,,2026-11-14 23:10:53+00:00,,8,30,False
+01a1dc56-a440-730e-b3bc-74d5bd37b7ee,2026-11-14T23:13:48.096827+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-14 23:13:43+00:00,,14377,30,True
+01a1dc57-8f73-725d-afab-070083957698,2026-11-14T23:14:48.307728+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-14 23:14:45+00:00,,14380,30,True
+01a1dc58-7a1a-7592-a7af-238298904740,2026-11-14T23:15:48.378190+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-14 23:15:47+00:00,,14384,30,True
+01a1dc59-64c5-75f6-94da-e74761968bbe,2026-11-14T23:16:48.453768+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-14 23:16:33+00:00,,14387,30,True
+01a1dc5a-4f6d-7209-8de0-ba6d61452253,2026-11-14T23:17:48.525207+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-14 23:17:36+00:00,,14391,30,True
+01a1dc5b-3a19-727c-ac6b-9032d91fd74a,2026-11-14T23:18:48.601165+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-14 23:18:37+00:00,,14394,30,True
+01a1dc5c-24c0-721f-ba7d-a2ed520096e4,2026-11-14T23:19:48.672274+00:00,2,KCPR1,PGM,AUD,Get Off of My Cloud,Richard Lloyd,,,180,,,,2026-11-14 23:18:53+00:00,,1,30,False
+01a1dc5e-7600-7400-85fd-ad8a337b8b9f,2026-11-14T23:22:20.545014+00:00,2,KCPR1,PGM,AUD,Delerium,Chris And Cosey,,,180,,,,2026-11-14 23:21:44+00:00,,1,30,False
+01a1dc60-c1b6-727d-a017-2eccf0e1692a,2026-11-14T23:24:50.999007+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-14 23:24:41+00:00,,14396,30,True
+01a1dc62-974d-7392-b92c-40bd4cbdcc50,2026-11-14T23:26:51.213316+00:00,2,KCPR1,PGM,AUD,Jump,Aztec Camera,,https://cdnrf.securenetsystems.net/file_radio/album_art/b/1/5/51bWiJsG-pL.jpg,180,,,,2026-11-14 23:26:07+00:00,,1,30,False
+01a1dc64-e317-765a-bd4a-ec3bb6ce0e30,2026-11-14T23:29:21.687686+00:00,2,KCPR1,PGM,AUD,Sharp Shoes (Are Comin' Back),Davey Wayne,,,180,,,,2026-11-14 23:28:42+00:00,,1,30,False
+01a1dc67-2edb-747b-93bf-aa1d47f71fe1,2026-11-14T23:31:52.155234+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-14 23:31:40+00:00,,14396,30,True
+01a1dc69-047d-76bc-a6dd-f38ad1e29c68,2026-11-14T23:33:52.381698+00:00,2,KCPR1,PGM,AUD,Baby’s Gone Away,Psychic TV,Allegory & Self,,167,,,,2026-11-14 23:33:05+00:00,,1,30,False
+01a1dc6a-e1a5-77bd-81e5-bd1a175ee255,2026-11-14T23:35:54.533753+00:00,2,KCPR1,PGM,AUD,Bonzo Goes to Bitburg,Ramones,Animal Boy,https://cdnrf.securenetsystems.net/file_radio/album_art/9/1/4/419N8Y1XA8L.jpg,240,,,,2026-11-14 23:35:25+00:00,,1,30,False
+01a1dc6e-1e17-770d-b6e1-887be7489f64,2026-11-14T23:39:26.615484+00:00,2,KCPR1,PGM,AUD,Loudspeaker,The Circuit,"Pay It All Back, Vol. 1",,185,,,,2026-11-14 23:39:16+00:00,,1,30,False
+01a1dc70-6f2f-74e3-8bdb-999127a18152,2026-11-14T23:41:58.447078+00:00,2,KCPR1,PGM,AUD,Kappa Ex.,Redd Kross,,,180,,,,2026-11-14 23:41:36+00:00,,1,30,False
+01a1dc72-bb0a-75e3-9752-ac9f903f7678,2026-11-14T23:44:28.938853+00:00,2,KCPR1,PGM,AUD,No Matter What,SS 20,,,180,,,,2026-11-14 23:44:10+00:00,,1,30,False
+01a1dc75-f201-73de-8b2c-eb884fa5df43,2026-11-14T23:47:59.617850+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-14 23:47:00+00:00,,14393,30,True
+01a1dc77-c79a-73e9-84fe-0dce5a5081ee,2026-11-14T23:49:59.834595+00:00,2,KCPR1,PGM,AUD,All My Dreams Are Dead,Television Personalities,Privilege,https://cdnrf.securenetsystems.net/file_radio/album_art/F/1/6/61FZ2KJifIL.jpg,180,,,,2026-11-14 23:49:19+00:00,,1,30,False
+01a1dc7a-1b3f-741c-a5ba-bb70400cb29a,2026-11-14T23:52:32.319558+00:00,2,KCPR1,PGM,AUD,Siberian Mines,The Wild Things,,,180,,,,2026-11-14 23:52:25+00:00,,1,30,False
+01a1dc7d-5179-7078-a18f-054d8c956e08,2026-11-14T23:56:02.809615+00:00,2,KCPR1,PGM,AUD,Burning Farm,Sonic Youth,,,180,,,,2026-11-14 23:55:46+00:00,,1,30,False
+01a1dc80-1317-7174-b069-91e5836a8bcf,2026-11-14T23:59:03.447646+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-14 23:58:36+00:00,,14395,30,True
