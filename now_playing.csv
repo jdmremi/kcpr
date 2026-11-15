@@ -11928,3 +11928,25 @@ request_id,request_time,dcs_output_version,station_call_sign,program_type,media_
 01a1e052-ff0f-75f5-a610-ce34d03ae9b2,2026-11-15T17:48:18.063641+00:00,2,KCPR1,PGM,AUD,Gateleg,Fust,,,292,,,,2026-11-15 17:47:22+00:00,,3,30,False
 01a1e056-ac22-70c2-baef-4991945104f3,2026-11-15T17:52:18.978845+00:00,2,KCPR1,PGM,AUD,Rat with Wings,Mei Semones,,,280,,,,2026-11-15 17:52:15+00:00,,4,30,False
 01a1e05b-43af-71a2-bbfa-5e0d24af1986,2026-11-15T17:57:19.919441+00:00,2,KCPR1,PGM,AUD,Los Angeles,Big Thief,,,237,,,,2026-11-15 17:56:54+00:00,,2,30,False
+01a1e05e-efe7-759f-8d80-1fcf1711e3af,2026-11-15T18:01:20.616032+00:00,2,KCPR1,PGM,AUD,Nancy Tries to Take the Night,"Black Country, New Road",Forever Howlong,https://cdnrf.securenetsystems.net/file_radio/album_art/C/0/B/2F21CCFB-C8D5-437F-9D63AB8CE019BB0C.jpg,394,,,,2026-11-15 18:01:01+00:00,,8,30,False
+01a1e065-5b46-727e-b3a0-2817fd350682,2026-11-15T18:08:21.318445+00:00,2,KCPR1,PGM,AUD,Lost Time,Lucy Dacus,,,281,,,,2026-11-15 18:07:28+00:00,,2,30,False
+01a1e069-0862-75ca-bff3-dd722431669f,2026-11-15T18:12:22.242232+00:00,2,KCPR1,PGM,AUD,Ladybug,Great Grandpa,,,222,,,,2026-11-15 18:12:21+00:00,,2,30,False
+01a1e06c-3fef-774d-aecf-067e19b58c3d,2026-11-15T18:15:53.071825+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-15 18:15:47+00:00,,14380,30,True
+01a1e06e-158e-75b7-94ef-5dc44651f81c,2026-11-15T18:17:53.294943+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-15 18:17:46+00:00,,14383,30,True
+01a1e06f-00bb-762d-b4bf-3131633ca522,2026-11-15T18:18:53.499840+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-15 18:18:48+00:00,,14387,30,True
+01a1e06f-eb68-73d8-9f7a-3d2b51ebbb6e,2026-11-15T18:19:53.576472+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-15 18:19:50+00:00,,14391,30,True
+01a1e070-d614-737c-98ea-6d5b9ae822f6,2026-11-15T18:20:53.652165+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-15 18:20:51+00:00,,14394,30,True
+01a1e071-c121-745e-b188-a1805eebd673,2026-11-15T18:21:53.825857+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-15 18:21:38+00:00,,14397,30,True
+01a1e072-abcc-72bf-805c-87235bf13949,2026-11-15T18:22:53.900424+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-15 18:22:40+00:00,,14401,30,True
+01a1e073-9676-7695-9736-5659e255aa77,2026-11-15T18:23:53.974726+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-15 18:23:42+00:00,,14405,30,True
+01a1e074-811d-731f-af97-a196498f9080,2026-11-15T18:24:54.045583+00:00,2,KCPR1,PGM,AUD,For Keeps,Lucy Dacus,,,130,,,,2026-11-15 18:23:58+00:00,,5,30,False
+01a1e076-594d-70eb-87a6-c46d1869cb2d,2026-11-15T18:26:54.925071+00:00,2,KCPR1,PGM,AUD,in my wildest dreams,Puma Blue,antichamber,https://cdnrf.securenetsystems.net/file_radio/album_art/2/0/1/1F5EC442-6198-47E8-AAABEDAC84E88102.jpg,158,,,,2026-11-15 18:26:16+00:00,,8,30,False
+01a1e078-304a-7530-854a-53d8fba3678e,2026-11-15T18:28:55.498787+00:00,2,KCPR1,PGM,AUD,Heaven Has No Wings,Dove Ellis,,https://cdnrf.securenetsystems.net/file_radio/album_art/7/1/9/F5632485-F30A-4303-B636C9B5710F9917.jpg,167,,,,2026-11-15 18:28:35+00:00,,10,30,False
+01a1e07a-f2f9-765d-8e1e-e3cc942bc049,2026-11-15T18:31:56.409710+00:00,2,KCPR1,PGM,AUD,No Fear,Big Thief,,,416,,,,2026-11-15 18:31:10+00:00,,2,30,False
+01a1e081-5f07-7528-a370-cb94d18cc82a,2026-11-15T18:38:57.287309+00:00,2,KCPR1,PGM,AUD,All Night All Day,Big Thief,,,289,,,,2026-11-15 18:38:07+00:00,,3,30,False
+01a1e085-0b4a-721f-a346-46b5c161ee07,2026-11-15T18:42:57.994609+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-15 18:42:48+00:00,,14405,30,True
+01a1e085-f64f-7185-afd3-feb1377ba134,2026-11-15T18:43:58.159626+00:00,2,KCPR1,PGM,AUD,Bovine Excision,Samia,,https://cdnrf.securenetsystems.net/file_radio/album_art/A/A/7/5B427414-3F91-4BEE-B1719CFD433D67AA.jpg,174,,,,2026-11-15 18:43:01+00:00,,5,30,False
+01a1e087-ce2f-74ae-ac09-63f9095c658a,2026-11-15T18:45:58.959897+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-15 18:45:39+00:00,,14405,30,True
+01a1e089-a3dd-759e-8fb2-d3cb95622c33,2026-11-15T18:47:59.197118+00:00,2,KCPR1,PGM,AUD,For the Cold Country,"Black Country, New Road",For the Cold Country,https://cdnrf.securenetsystems.net/file_radio/album_art/9/5/6/D3CD0CAA-C000-4695-B4EDAD20096AF659.jpg,385,,,,2026-11-15 18:47:24+00:00,,5,30,False
+01a1e08f-252a-726d-8baa-40dd6e375509,2026-11-15T18:53:59.979049+00:00,2,KCPR1,PGM,AUD,Gloom Designs,Florist,Jellywish,https://cdnrf.securenetsystems.net/file_radio/album_art/E/3/B/FF7D2FE8-2024-406C-A5A7D8604F90BB3E.jpg,253,,,,2026-11-15 18:53:50+00:00,,4,30,False
+01a1e092-d177-709e-b9df-4b445cae58a6,2026-11-15T18:58:00.695435+00:00,2,KCPR1,PGM,AUD,Every Time I Hear,Sharp Pins,Radio DDR,https://cdnrf.securenetsystems.net/file_radio/album_art/9/3/2/6E3DE0DB-3C3B-47EB-B7FEDCD3BF817239.jpg,164,,,,2026-11-15 18:57:58+00:00,,4,30,False
