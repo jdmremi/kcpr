@@ -12221,3 +12221,6 @@ request_id,request_time,dcs_output_version,station_call_sign,program_type,media_
 01a1e359-8aec-77ca-9cc6-510f86f490ae,2026-11-16T07:54:18.732659+00:00,2,KCPR1,PGM,AUD,Stress,Justice,,,299,,,,2026-11-16 07:53:32+00:00,,4,30,False
 01a1e35d-37f5-72f9-b0f7-5f28bb5e5e87,2026-11-16T07:58:19.637331+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-16 07:58:16+00:00,,14371,30,True
 01a1e35e-233b-7130-8cc5-6a826e6b6e15,2026-11-16T07:59:19.867104+00:00,2,KCPR1,PGM,AUD,Olson (Version 3),Boards of Canada,Peel Session,https://cdnrf.securenetsystems.net/file_radio/album_art/0/7/0/0709c446-e190-4dce-b469-908e51267770-4058092546_thumb500.jpg,147,,,,2026-11-16 07:58:26+00:00,,5,30,False
+01a1e35f-850e-766f-8a63-db6cf9033691,2026-11-16T08:00:50.446275+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-16 08:00:44+00:00,,14371,30,True
+01a1e360-7033-719b-903a-0a8e0123b5d0,2026-11-16T08:01:50.643777+00:00,2,KCPR1,PGM,AUD,Democracy Now,Pacifica,,,180,,,,2026-11-16 08:01:01+00:00,,21,30,False
+01a1e363-3215-727a-bcfc-4dd102c194bb,2026-11-16T08:04:51.349494+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-16 08:03:58+00:00,,14372,30,True
