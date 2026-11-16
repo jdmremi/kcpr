@@ -12432,3 +12432,23 @@ request_id,request_time,dcs_output_version,station_call_sign,program_type,media_
 01a1e57f-b439-7346-ae4a-88ef0c25336c,2026-11-16T17:55:14.105035+00:00,2,KCPR1,PGM,AUD,Sweet,feeble little horse,,,154,,,,2026-11-16 17:54:49+00:00,,1,30,False
 01a1e581-90e3-7615-a76f-6e2a86acded5,2026-11-16T17:57:16.131178+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-16 17:57:06+00:00,,14519,30,True
 01a1e582-7c0e-72fd-b3e4-8772ec66ac69,2026-11-16T17:58:16.334630+00:00,2,KCPR1,PGM,AUD,Autosmile,@,Autosmile,,398,,,,2026-11-16 17:57:20+00:00,,11,30,False
+01a1e587-fca6-7681-acdc-fbd50cc449ed,2026-11-16T18:04:16.934601+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-16 18:03:42+00:00,,14519,30,True
+01a1e58a-bccd-75d6-948e-d16b66c38d94,2026-11-16T18:07:17.197630+00:00,2,KCPR1,PGM,AUD,Red Car,Slow Pulp,,,208,,,,2026-11-16 18:07:04+00:00,,9,30,False
+01a1e58d-80b3-775e-8e18-29bb1e6f2829,2026-11-16T18:10:18.419287+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-16 18:10:16+00:00,,14517,30,True
+01a1e58e-6bc6-73d5-a358-e211faa859ec,2026-11-16T18:11:18.598345+00:00,2,KCPR1,PGM,AUD,Sometimes,Mannequin Pussy,I Got Heaven,https://cdnrf.securenetsystems.net/file_radio/album_art/7/C/8/CACED3BD-1A45-436E-B7874812AA84E8C7.jpg,201,,,,2026-11-16 18:10:25+00:00,,3,30,False
+01a1e591-2ce8-72f6-8872-ea93752d2d0b,2026-11-16T18:14:19.112565+00:00,2,KCPR1,PGM,AUD,Nothing to Prove (feat. Hayley Williams),Beabadoobee,Pylon,https://cdnrf.securenetsystems.net/file_radio/album_art/1/9/C/B9089966-C6C2-4DA3-9F82842C6214CC91.jpg,144,,,,2026-11-16 18:13:42+00:00,,26,30,False
+01a1e593-03f4-71f7-8a3c-e3a831b9851f,2026-11-16T18:16:19.700198+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-16 18:15:51+00:00,,14518,30,True
+01a1e595-c462-76f6-99dd-e6df2b4bd06b,2026-11-16T18:19:20.034799+00:00,2,KCPR1,PGM,AUD,Never Odd or Even,Starcleaner Reunion,Umbrella,https://cdnrf.securenetsystems.net/file_radio/album_art/7/8/3/552937FA-DA88-4EC2-9EA5451F5E73D387.jpg,279,,,,2026-11-16 18:19:02+00:00,,10,30,False
+01a1e59a-5afc-72d0-b5b0-04b9815d5086,2026-11-16T18:24:20.733013+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-16 18:24:15+00:00,,14521,30,True
+01a1e59b-4619-72fc-b7eb-d3fc84d12718,2026-11-16T18:25:20.921292+00:00,2,KCPR1,PGM,AUD,I Just Do! (Radio edit),Girlpuppy,,,188,,,,2026-11-16 18:25:20+00:00,,1,30,False
+01a1e59e-82b4-7396-a2d1-79a0888e47b2,2026-11-16T18:28:53.044907+00:00,2,KCPR1,PGM,AUD,I Know!,Swapmeet,Mount Zero,https://cdnrf.securenetsystems.net/file_radio/album_art/2/F/7/AAB7D5D7-6D9F-4CBE-A1E0D7811212F7F2.jpg,213,,,,2026-11-16 18:28:27+00:00,,7,30,False
+01a1e5a1-446d-7134-88f1-29f220bd3171,2026-11-16T18:31:53.709932+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-16 18:31:45+00:00,,14525,30,True
+01a1e5a3-1a0c-7330-8339-448ffcf84259,2026-11-16T18:33:53.932312+00:00,2,KCPR1,PGM,AUD,Quarry,Wednesday,,,246,,,,2026-11-16 18:33:09+00:00,,1,30,False
+01a1e5a6-cb40-728b-9a08-31c7166ce946,2026-11-16T18:37:55.904197+00:00,2,KCPR1,PGM,AUD,We're Going to Be Friends,The White Stripes,White Blood Cells,https://cdnrf.securenetsystems.net/file_radio/album_art/B/1/5/51BZ91A1DGL.jpg,140,,,,2026-11-16 18:37:39+00:00,,1,30,False
+01a1e5a8-a681-73ee-9e03-f6e42b6e46de,2026-11-16T18:39:57.569284+00:00,2,KCPR1,PGM,AUD,Knife,Oscar Lindsey,Sunshine,,149,,,,2026-11-16 18:39:18+00:00,,2,30,False
+01a1e5aa-f246-72e0-9467-602ebc9b1517,2026-11-16T18:42:28.038545+00:00,2,KCPR1,PGM,AUD,Pulling Our Weight,The Radio Dept.,Passive Aggressive,,200,,,,2026-11-16 18:42:16+00:00,,2,30,False
+01a1e5ae-2fbe-721a-aa31-087b47c93f3e,2026-11-16T18:46:00.382156+00:00,2,KCPR1,PGM,AUD,Angel Dreams,Dogwood Tales,Every Star in Rockingham County,https://cdnrf.securenetsystems.net/file_radio/album_art/0/5/9/D5C3BB74-1DF7-4E4B-9A02E4A85CC2B950.jpg,216,,,,2026-11-16 18:45:04+00:00,,4,30,False
+01a1e5b1-6622-7504-8a08-dd563638c0da,2026-11-16T18:49:30.914753+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-16 18:48:35+00:00,,14525,30,True
+01a1e5b3-3bbb-7258-9610-fc3e92a73474,2026-11-16T18:51:31.131397+00:00,2,KCPR1,PGM,AUD,Superstar,Eilish Constance,,,205,,,,2026-11-16 18:51:11+00:00,,13,30,False
+01a1e5b6-04f2-733d-8374-46487523b385,2026-11-16T18:54:33.714074+00:00,2,KCPR1,PGM,AUD,Even if it's Just a Dream,Sword II,,,242,,,,2026-11-16 18:54:31+00:00,,14,30,False
+01a1e5b9-b24e-701c-b2be-c2e5f2b8663d,2026-11-16T18:58:34.702444+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-16 18:58:30+00:00,,14526,30,True
