@@ -15611,3 +15611,5 @@ request_id,request_time,dcs_output_version,station_call_sign,program_type,media_
 01a20761-66f8-7693-b98a-ae760ea8e715,2026-11-23T07:49:13.592850+00:00,2,KCPR1,PGM,AUD,Idiot In The Park,Nourished By Time,,,195,,,,2026-11-23 07:48:56+00:00,,10,30,False
 01a20764-296f-728b-a370-9488f07e4433,2026-11-23T07:52:14.447080+00:00,2,KCPR1,PGM,AUD,Xantippe,Nachtbraker,Gute Laune EP,,427,,,,2026-11-23 07:52:01+00:00,,5,30,False
 01a2076a-99b0-731d-a400-aa38bb0f7f89,2026-11-23T07:59:16.400296+00:00,2,KCPR1,PGM,AUD,Cry for Me,Magdalena Bay,,,307,,,,2026-11-23 07:59:14+00:00,,11,30,False
+01a2076c-7187-7165-a388-ebf2cd8740bc,2026-11-23T08:01:17.191107+00:00,2,KCPR1,PGM,AUD,Democracy Now,Pacifica,,,180,,,,2026-11-23 08:01:03+00:00,,21,30,False
+01a2076f-3330-769a-ad8b-d73eb97955e6,2026-11-23T08:04:17.840878+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-23 08:03:57+00:00,,14812,30,True
