@@ -16597,3 +16597,6 @@ request_id,request_time,dcs_output_version,station_call_sign,program_type,media_
 01a211b0-8c18-7410-bf8c-766fccfcda2c,2026-11-25T07:51:52.600746+00:00,2,KCPR1,PGM,AUD,CONTROL,Frost Children,,https://cdnrf.securenetsystems.net/file_radio/album_art/9/A/6/91B29221-5F67-49B1-B38AF7A2BB9996A9.jpg,154,,,,2026-11-25 07:50:54+00:00,,6,30,False
 01a211b2-64e4-77cf-9658-b18e64194538,2026-11-25T07:53:53.636948+00:00,2,KCPR1,PGM,AUD,BE WITH YOU (feat. Millie Go Lightly),JIMMY EDGAR,CHEETAH BEND,https://cdnrf.securenetsystems.net/file_radio/album_art/d/0/1/10daff67-f544-486a-ae68-188682e708c4-28580797087_thumb500.jpg,150,,,,2026-11-25 07:53:14+00:00,,4,30,False
 01a211b4-3bf5-722c-acdc-efaa4d6b0359,2026-11-25T07:55:54.229651+00:00,2,KCPR1,PGM,AUD,Yamaha,Dijon,,,268,,,,2026-11-25 07:55:48+00:00,,15,30,False
+01a211b8-d3cd-7342-91ec-1e5cddf42e4e,2026-11-25T08:00:55.245473+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-25 08:00:00+00:00,,14838,30,True
+01a211b9-bf2b-7345-9d43-f58dc119abb3,2026-11-25T08:01:55.499146+00:00,2,KCPR1,PGM,AUD,Democracy Now,Pacifica,,,180,,,,2026-11-25 08:01:14+00:00,,22,30,False
+01a211bc-8070-7267-85e3-73736062bc85,2026-11-25T08:04:56.048833+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-25 08:04:01+00:00,,14838,30,True
