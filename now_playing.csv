@@ -17438,3 +17438,6 @@ request_id,request_time,dcs_output_version,station_call_sign,program_type,media_
 01a21a8a-0f8e-731c-a4d9-fabbcb7e422e,2026-11-27T01:06:25.294559+00:00,2,KCPR1,PGM,AUD,Mustang News on KCPR,,,https://userimages.metaradio.net/2669f22f01dd/14192/image_3-21e5ec99c38a1fec.jpg,0,,,,2026-11-27 01:06:14+00:00,,354,30,False
 01a21a8a-fa97-7024-a132-a2495392e227,2026-11-27T01:07:25.463607+00:00,2,KCPR1,PGM,AUD,Peel,Peel,Peel,,166,,,,2026-11-27 01:06:30+00:00,,1,30,False
 01a21a8d-49c0-73ea-a5f1-9d702ee9ff0e,2026-11-27T01:09:56.801010+00:00,2,KCPR1,PGM,AUD,Mi Sol,Los Tranquilos,,,189,,,,2026-11-27 01:09:06+00:00,,3,30,False
+01a21d78-83ee-7633-bf4c-9e395ceb2ba6,2026-11-27T14:46:07.091777+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-27 14:45:44+00:00,,14716,30,True
+01a21d79-7646-77d7-a276-cf9e1cd0b19a,2026-11-27T14:47:09.126281+00:00,2,KCPR1,PGM,AUD,KCPR Cal Poly Radio.  Where Different Matters.,,,,0,,,,2026-11-27 14:46:36+00:00,,14714,30,True
+01a21d81-b56d-7351-9d1b-7d12970fc936,2026-11-27T14:56:09.581454+00:00,2,KCPR1,PGM,AUD,Describe,Hannah Jadagu,,https://cdnrf.securenetsystems.net/file_radio/album_art/3/0/6/A92E88A6-85B1-400A-8904C3D8FC780603.jpg,231,,,,2026-11-27 14:55:57+00:00,,10,30,False
